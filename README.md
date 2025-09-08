@@ -114,30 +114,4 @@ terraform destroy
 * **userdata.sh / userdata1.sh** → Bootstrap scripts for EC2 instances.
 * **terraform.tfstate** → State file (should not be committed to Git).
 
----
 
-## Tools & Technologies
-
-* **Terraform** – Infrastructure as Code.
-* **AWS** – Cloud provider.
-* **GitHub** – Version control.
-
----
-
-##  Resume Value
-
-This project demonstrates:
-
-* Practical **Terraform skills** for AWS.
-* Knowledge of **VPC, EC2, Load Balancers, and Security Groups**.
-* Ability to design and automate cloud infrastructure.
-* Familiarity with **IaC best practices**.
-
----
-
-##  Next Steps (Improvements)
-
-* Add **Terraform modules** for reusable code.
-* Use **remote backend (S3 + DynamoDB)** for state management.
-* Add **Auto Scaling Group** for high availability.
-* Integrate with **CI/CD pipeline** (e.g., GitHub Actions).
